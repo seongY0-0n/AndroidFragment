@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Fragment"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메시지 입력"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"/>
+    
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:lines="10"
+        android:hint="Message to send"
+        android:textColorHint="@color/black"
+        android:id="@+id/editText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="프래그먼트 선택"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Fragment A"
+        android:background="@android:color/holo_blue_light"
+        android:id="@+id/btn_fragA"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Fragment B"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/btn_fragB"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:text="Fragment C"
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/btn_fragC"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
